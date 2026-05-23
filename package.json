@@ -1,0 +1,14 @@
+{
+  "name": "signsetu-qa-api-tests",
+  "version": "1.0.0",
+  "description": "Automated JavaScript API tests for the SignSetu QA Analyst final round.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-concurrency=1",
+    "test:verbose": "node --test --test-reporter=spec --test-concurrency=1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
