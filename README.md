@@ -11,6 +11,7 @@ JavaScript automated tests for the SignSetu Video Caption Processing Pipeline fi
 ## Setup
 
 ```bash
+npm install
 npm test
 ```
 
